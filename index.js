@@ -35,11 +35,11 @@ console.log("Address with Check sum:",address);
 // transaction builder
 const PrivBuffKey = Buffer.from(masterPrivateKey, 'hex')
 const params = {
-  nonce:0,
-  to: '0x4584158529818ef77D1142bEeb0b6648BD8eDb2f',
-  value: '1000',
-  gasPrice: 5000000000,
-  gasLimit: 21000,
+  nonce:0x6,
+  to: '0x4584159875418ef77D1142bEec0b6648BD8eDb2f',
+  value: '0x00',
+  gasPrice: 0x09184e72a000,
+  gasLimit: 0x30000,
   chainId: 3
 }
 
